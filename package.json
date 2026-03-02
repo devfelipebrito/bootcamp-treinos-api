@@ -11,14 +11,17 @@
   "dependencies": {
     "@fastify/swagger": "^9.7.0",
     "@fastify/swagger-ui": "^5.2.5",
+    "@prisma/adapter-pg": "^7.4.0",
+    "@prisma/client": "^7.4.0",
     "dotenv": "^17.3.1",
     "fastify": "^5.7.4",
     "fastify-type-provider-zod": "^6.1.0",
     "husky": "^9.1.7",
+    "prisma": "^7.4.0",
     "zod": "^4.3.6"
   },
   "engines": {
-    "node": "20.x"
+    "node": "24.x"
   },
   "devDependencies": {
     "@types/node": "^20.19.35",
@@ -26,7 +29,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "prettier": "^3.8.1",
-    "tsx": "^4.21.0",
+    "tsx": "^4.2.0",
     "typescript": "^5.9.3"
   }
 }
