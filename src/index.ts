@@ -10,7 +10,6 @@ import {
   validatorCompiler,
 } from "fastify-type-provider-zod";
 import z, { ZodType } from "zod";
-import { url } from "inspector";
 
 const app = Fastify({
   logger: true,
