@@ -9,6 +9,8 @@
     "dev": "tsx --watch src/index.ts"
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
+    "fastify": "^5.7.4",
     "husky": "^9.1.7"
   },
   "engines": {
